@@ -44,11 +44,11 @@ static void AddWord(const int wordtoadd) {
 }
 
 void ShowTime_Hun(unsigned int sec) {
+  ClearWords();
+  
   byte hour = sec / 3600;
   sec = sec - hour * 3600;
   byte min = sec / 60;
-
-  ClearWords();
 
   AddWord(WORD_MULVA);
 }
