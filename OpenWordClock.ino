@@ -1,7 +1,5 @@
-//#define ENGLISH
-#define HUNGARIAN
-
-
+#define ENGLISH
+//#define HUNGARIAN
 
 unsigned int leds[10];
 unsigned long seconsdssicemidnight = 0;
